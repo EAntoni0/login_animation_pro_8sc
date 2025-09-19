@@ -45,6 +45,20 @@ assets/
 
 ### 👀 Follows the cursor when typing the email
 
+![Animated Login Demo](assets/escribir_email.gif)
+
+### 🙈 Covers its eyes when typing the password
+
+![Animated Login Demo](assets/escribir_password.gif)
+
+### 😄 Smiles when the login is correct
+
+![Animated Login Demo](assets/contraseña_correcta.gif)
+
+### 😢 Shows a sad animation when the login fails
+
+![Animated Login Demo](assets/contraseña_incorrecta.gif)
+
 
 
 
