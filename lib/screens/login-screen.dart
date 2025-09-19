@@ -91,7 +91,7 @@ class _LoginScreenState extends State<LoginScreen> {
     final password = _passwordController.text.trim();
 
     // Credenciales de ejemplo
-    if (email == "ac817924@gmail.com" && password == "qwert54321") {
+    if (email == "chanerick@gmail.com" && password == "qwert54321") {
       trigSuccess?.fire(); // Animación de éxito
     } else {
       trigFail?.fire(); // Animación de fallo
