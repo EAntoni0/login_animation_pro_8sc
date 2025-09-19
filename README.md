@@ -61,5 +61,24 @@ assets/
 
 
 
+## 💻 Course Information
+
+Course: Mobile App Development
+
+Instructor: Prof. Rodrigo Gaxiola Sosa
+
+## 📝 Credits
+
+Animation created by dexterc: https://rive.app/marketplace/3645-7621-remix-of-login-machine/, all rights reserved.
+
+## 🚀 Demo Credentials
+
+Use the following credentials for testing:
+
+📧 Email: chanerick@gmail.com
+
+🔑 Password: qwert54321
+
+
 
   
