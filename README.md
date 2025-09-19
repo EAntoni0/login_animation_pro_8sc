@@ -1,37 +1,51 @@
-# Pantalla de inicio de sesión animada con Flutter y Rive
+# 🐻 Animated Login Screen with Flutter & Rive
 
+This project is an **interactive login screen** built with **Flutter**, featuring an animated character using **Rive**.  
+The character reacts to user actions in real-time:  
 
-Este proyecto se trata de una **pantalla de inicio de sesión interactiva** en Flutter, con un personaje animado en **Rive** que va reaccionando de diferente manera a cada una de las acciones:
+- 👀 Follows the cursor when typing the email  
+- 🙈 Covers its eyes when typing the password  
+- 😄 Smiles when the login is correct  
+- 😢 Shows a sad animation when the login fails  
 
+---
 
-- sigue el cursor cuando escribes el email
-- se tapa los ojos cuando escribes la contraseña
-- sonrie cuando escribes los datos de session correctos
-- se pone triste cuando escribes los datos incorrectos
+## 🔹 About Rive & State Machines
 
+[Rive](https://rive.app/) is a powerful tool to create interactive animations that can be embedded in apps.  
+A **State Machine** in Rive allows you to control animations dynamically using inputs like:  
 
-## algunas caracteristicas destacables
+- **SMIBool** – boolean states (e.g., isChecking, isHandsUp)  
+- **SMINumber** – numerical inputs (e.g., numLook to follow the cursor)  
+- **SMITrigger** – triggers to fire one-time animations (e.g., trigSuccess, trigFail)  
 
-- Integración de **Flutter** con **Rive** para animaciones.  
-- **FocusNode + Timer** para controlar estados de inactividad:  
-  - Si dejas de escribir en email → el oso deja de mirar.  
-  - Si dejas de escribir en password → el oso baja las manos.  
-- Datos de la session para probar:
+---
 
-  Email: ac817924@gmail.com
+## 🛠️ Technologies
 
-  Password: qwert54321
+- [Flutter](https://flutter.dev/) – Cross-platform UI framework  
+- [Rive](https://rive.app/) – Interactive animations  
+- Dart – Programming language  
 
+---
 
-## Estructura basica del proyecto
+## 📂 Project Structure
 
+```text
 lib/
-├── main.dart
-└── login_screen.dart # Pantalla de login con lógica de animación
-assets/
-└── animated_login_character.riv # Archivo Rive
+├── main.dart                 # Entry point of the app
+└── login_screen.dart         # Login screen with Rive animation logic
 
-### Escribir Email
+assets/
+└── animated_login_character.riv   # Rive animation file
+```
+
+
+## 🎬 Demo
+
+### 👀 Follows the cursor when typing the email
+
+
 
 
   
